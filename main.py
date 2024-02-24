@@ -3,7 +3,7 @@ from validate import validate_code_blocks
 from execute import append_call_and_execute
 
 def main():
-    print("Hello! Please provide a list of integers")
+    print("Hello! Please provide a list of integers.")
     
     input_str = input()
     try:
