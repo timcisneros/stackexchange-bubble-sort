@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/timcisneros/bubble-sort-fetcher.git
+    git clone https://github.com/timcisneros/stackexchange-bubble-sort.git
     cd stackexchange-bubble-sort
     ```
 
