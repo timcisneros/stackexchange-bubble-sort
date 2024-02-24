@@ -9,7 +9,7 @@ def main():
     try:
         input_list = [int(x.strip()) for x in input_str.split(',')]
     except ValueError:
-        print("Please ensure you enter a list of integers separated by commas.")
+        print("Please ensure you enter a list of integers.")
         return
 
     try:
@@ -25,7 +25,7 @@ def main():
         sorted_list = append_call_and_execute(validated_code_block, input_list)
 
         # return the sorted list
-        print("Sorted List:", sorted_list)
+        print(', '.join(map(str, sorted_list)))
     except Exception as e:
         print(f"Error: {e}")
 
