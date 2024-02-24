@@ -1,4 +1,4 @@
-# Bubble Sort Implementation Fetcher
+# Stack Exchange Bubble Sort
 
 This Python project demonstrates a dynamic approach to fetching, validating, and executing bubble sort algorithm implementations from Stack Overflow. It utilizes the Stack Exchange API to retrieve a random bubble sort implementation tagged with `python` and `bubble-sort`, validates the fetched code, and then executes it to sort a user-provided list of integers.
 
